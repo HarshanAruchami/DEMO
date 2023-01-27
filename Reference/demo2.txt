@@ -1,1 +1,2 @@
 File within the folder
+commit 4 works properly
