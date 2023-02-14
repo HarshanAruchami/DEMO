@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Site</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption> TABLETASK </caption>
+        <thead>
+            <tr>
+                <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                <th>REG NO&nbsp&nbsp&nbsp</th>
+                <th colspan="2">NAME</th>
+                <th>PERCENTAGE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+                <td>FIRSTNAME</td>
+                <td>LASTNAME</td>
+                <td> </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th rowspan="5">SEM1</th>
+                <td>1</t>
+                <td></td>
+                <th></th>
+                <th></th>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th rowspan="5">SEM2</th>
+                <td>1</t>
+                <td></td>
+                <th></th>
+                <th></th>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <th></th>
+                <th></th>
+            </tr>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
