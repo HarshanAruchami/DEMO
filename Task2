@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMPLE SITE2</title>
+</head>
+
+<body>
+    <hr>
+    <div style="padding-left: 500px;">
+        <!-- Audio tag -->
+        <audio controls muted style="align-content: center;">
+            <source src="/assets/assets_SampleAudio.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <hr>
+    <div style="padding-left: 180px;">
+        <!-- Video tag -->
+        <video controls autoplay>
+            <source src="/assets/SampleVideo.mp4" type="video/mp4">
+        </video>
+    </div>
+    <hr>
+    <br>
+    <div style="padding-left: 450px;">
+        <!-- Iframe tag -->
+        <iframe src="http://127.0.0.1:5500/task1.html" width="500px" height="200px">
+
+        </iframe>
+    </div>
+
+</body>
+
+</html>
