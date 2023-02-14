@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Site 3</title>
+</head>
+<body>
+    <div>
+        <img src="/assets/HTML pic.jpg" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" alt="html" title="h" href="/assets/css pic.jpg" coords="508,418,390,236" shape="rect">
+            <area target="_blank" alt="html" title="t" href="/assets/js pic.jpg" coords="608,418,517,255" shape="rect">
+            <area target="_blank" alt="html" title="m" href="/assets/boots pic.jpg" coords="618,417,798,289" shape="rect">
+            <area target="_blank" alt="html" title="l" href="/assets/jquery pic.jpg" coords="861,235,821,417" shape="rect">
+
+        </map>
+    </div>
+</body>
+</html>
