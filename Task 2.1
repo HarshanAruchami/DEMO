@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Site 1</title>
+    <style>
+        #button {
+            background-color: black;
+            color: white;
+            padding: 8px;
+            border-radius: 20px;
+            margin-left: 640px;
+            margin-top: 30px;
+        }
+
+        #for {
+            background-color: darkgrey;
+            
+        }
+
+        #top {
+            font-size: larger;
+            font-style: oblique;
+            text-align: center;
+            font-size:50px;
+        }
+        #pas{
+            margin-left: 10px;
+        }
+        #mail{
+            margin-left: 33px;
+        }
+        #date{
+            margin-left: 45px;
+        }
+        #pro{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset id="for">
+            <legend id="top">PERSONAL DETAILS</legend><br>
+            <label>User Name</label>
+            <input type="text" placeholder="eg.harshan"  required><br><br>
+            <label>Password</label>
+            <input type="password" id="pas" required ><br><br>
+            <label>Email</label>
+            <input type="email" id="mail" placeholder="eg.harshan@gmail.com" required><br><br>
+            <fieldset>
+                <input type="radio" name="gen" required>
+                <legend>GENDER</legend>
+                <label>Male</label>
+                <input type="radio" name="gen" required>
+                <label>Female</label>
+                <input type="radio" name="gen" required>
+                <label>Others</label>
+            </fieldset><br>
+            <label>Address</label><br>
+            <textarea placeholder="your address here!"></textarea><br><br>
+            <input type="checkbox" required>
+            <label>Remember Password</label><br><br>
+            <label>DOB</label>
+            <input type="date" id="date" required><br><br>
+            <label>Profession</label>
+            <select id="pro">
+                <optgroup label="Health">
+                    <option></option>
+                    <option>Doctor</option>
+                    <option>Physio</option>
+                </optgroup>
+                <optgroup label="IT">
+                    <option>Developer</option>
+                    <option>Designer</option>
+                </optgroup>
+
+            </select><br><br>
+            <label>Mob.No</label>
+            <input maxlength="10" pattern="[0-9]{10}" placeholder="eg.0123456789" required><br><br>
+            <label>Tele.No</label>
+            <input  maxlength="10" required placeholder="eg.123-1234-123" pattern="[0-4]{3}[0-9]{4}[0-9]{3}"><br>
+        </fieldset>
+        <button type="submit" id="button">SUBMIT</button>
+
+    </form>
+
+</body>
+
+</html>
