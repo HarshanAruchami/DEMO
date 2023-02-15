@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample site 5</title>
+</head>
+<body>
+     <!--Picture element-->
+     <picture>
+        <source media="(min-width:750px)" srcset="/assets/css_pic.jpg" height="100px" width="100px">
+        <source media="(min-width:650px)" srcset="/assets/jquery_pic.jpg" height="100px" width="100px">
+        <source media="(min-width:450px)" srcset="/assets/boots_pic.jpg" height="100px" width="100px">
+        <img src="/assets/HTML_pic.jpg" alt="HTML" style="width: auto;" height="100px" width="100px">
+    </picture>
+    
+</body>
+</html>
