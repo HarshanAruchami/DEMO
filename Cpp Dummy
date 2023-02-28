@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,i,t[1000],a,b;
+    cout << "Enter the limit : ";
+    cin >> n;
+    for (i=0;i<n;i++)
+    {
+        cout << "Enter the salary : ";
+        cin >> t[i];
+    }
+    if(a>20000)
+    {
+        for(i=0;i<n;i++)
+        {
+            cout << "No of employees salary more than 20000 : " << t[i];
+        }
+
+    }else if(t[i]>10000 && t[i]<20000)
+    {
+        for(i=0;i<n;i++)
+        {
+            cout << "No of employees salary b/w 10000-20000 : " << t[i];
+        }
+    }
+    return 0;
+}
