@@ -1,0 +1,64 @@
+#include<iostream>
+using namespace std;
+void deposit(float balamt,int depositamt)
+{
+    cout << "Enter the Deposit amount : ";
+    cin >> depositamt;
+
+}
+void withdraw(int wamt,float balamt)
+{
+    cout << "Enter the withdraw amount : ";
+    cin >> wamt;
+    if (balamt<1000)
+        {
+            cout << "Account Balance is low!!!" <<endl;
+        }
+    else if(balamt<wamt)
+    {
+        cout << "Account Balance is low!!!" <<endl;
+    }
+    else
+    {
+        cout << wamt << "is withdrawed" <<endl;
+    }
+
+}
+int main()
+{
+    int accno,ftype;
+    char acctyp;
+    string cusname;
+    float balamt;
+    int depositamt;
+    int wamt;
+    cout << "Enter the account number : ";
+    cin >> accno ;
+    cout << "Enter customer name : ";
+    cin >> cusname ;
+    cout << "Balance amount :  ";
+    cin >> balamt;
+    cout << "Account type"<< endl;
+    cout << "[s]->savings account"<< endl;
+    cout << "[a]->salary account"<< endl;
+    cin >> acctyp;
+    if(acctyp == 's' || acctyp == 'S')
+    {
+        cout<< "Savings Account"<< endl;
+    }
+    else if(acctyp == 'a' || acctyp == 'A')
+    {
+        cout<< "Salary Account"<<endl;
+    }
+    cout <<"Enter 1 to perform deposite : "<<endl;
+    cout <<"Enter 2 to perform withdraw : "<<endl;
+    cin >> ftype;
+    if(ftype == 1 )
+    {
+        cout << "Deposite function" << deposit(balamt,depositamt)<<endl;
+    }
+    else if(ftype == 2 )
+    {
+        cout << "Withdraw function" << withdraw(wamt,balamt)<<endl;
+    }
+}
